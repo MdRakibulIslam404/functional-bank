@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double and Triple</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main class="mx-auto w-3/6">
+        <section class="mt-8">
+            <div class="mx-auto">
+                <input type="text" name="" placeholder="Input Number"
+                    class="border border-amber-300 rounded block mb-4 py-2 px-1 mx-auto w-3/6 bg-sky-200"
+                    id="input-number">
+                <div class="mx-auto w-2/4 grid grid-cols-2 gap-6">
+                    <button id="double-button"
+                        class="bg-blue-600 py-2 px-6 font-medium text-white rounded-md">Double</button>
+                    <button id="triple-button"
+                        class="bg-pink-600 py-2 px-6 font-medium text-white rounded-md">Triple</button>
+                </div>
+                <div class="mt-8 grid grid-cols-2">
+                    <p class="text-3xl text-white text-center p-16 inline bg-sky-400 mx-auto">Double: <span
+                            id="result-double">00</span></p>
+                    <p class="text-3xl text-white text-center p-16 inline bg-sky-400 mx-auto">Triple: <span
+                            id="result-triple">00</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/practice.js"></script>
+</body>
+
+</html>
